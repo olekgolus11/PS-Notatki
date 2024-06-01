@@ -10,5 +10,7 @@ title: Notatki z Programowania Sieciowego
 - [[Wykład 4 - Zastosowanie wielowątkowości]]
 - [[Wykład 5 - Techniki asynchroniczne]]
 - [[Wykład 6 - Komunikacja UDP Klient-Serwer]]
+	- [[Wykład 6 - Broadcast]]
+	- [[Wykład 6 - Multicast]]
 
 #it #ps
