@@ -134,7 +134,9 @@
     d. Monitor
 
 > [!NOTE]- Odpowiedź
-> a. Sekcja krytyczna
+> c. Semafor
+> 
+> Semafor to mechanizm synchronizacji wątków, który umożliwia ograniczenie liczby wątków mogących jednocześnie wykonywać dany fragment kodu.
     
 10. **Który problem wielowątkowości występuje, gdy dwa lub więcej wątków wzajemnie blokują się, czekając na zasoby, których posiadają inne wątki?**
     
@@ -147,7 +149,9 @@
     d. Starvation
 
 > [!NOTE]- Odpowiedź
-> d. Starvation
+> b. Deadlock
+> 
+> Deadlock (zakleszczenie) to sytuacja, w której dwa lub więcej wątków blokują się wzajemnie, czekając na zasoby, które są trzymane przez inne wątki.
 
 ## Część II: Pytania otwarte (5 punktów za każdą poprawną odpowiedź)
 
