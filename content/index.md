@@ -14,6 +14,7 @@ title: Notatki z Programowania Sieciowego
 	- [[Wykład 6 - Multicast]]
 ## Inne
 - [[Programowanie sieciowe - przykładowe zaliczenie 1]]
+- [[Programowanie sieciowe - przykładowe zaliczenie 2]]
 
 
 #it #ps
