@@ -71,13 +71,13 @@ Abstrakcyjne kroki tworzenia klienta i serwera TCP:
     - Użyj klas takich jak `PrintWriter` (do wysyłania tekstu) lub `DataOutputStream` (do wysyłania danych binarnych) do opakowania strumienia wyjściowego.
     - Użyj klas takich jak `BufferedReader` (do odczytu tekstu) lub `DataInputStream` (do odczytu danych binarnych) do opakowania strumienia wejściowego.
     - Przykład (wysyłanie tekstu):
-        ```Java
+        ```java
         PrintWriter out = new PrintWriter(outputStream, true);
         out.println("Hello, server!"); 
         ```
         
     - Przykład (odbieranie tekstu):
-        ```Java
+        ```java
         BufferedReader in = new BufferedReader(new InputStreamReader(inputStream));
         String serverResponse = in.readLine();
         ```
@@ -87,7 +87,7 @@ Abstrakcyjne kroki tworzenia klienta i serwera TCP:
     - Przykład: `clientSocket.close();`
 
 ### Przykład implementacji klienta
-```Java
+```java
 import java.io.*;
 import java.net.*;
 
@@ -130,7 +130,7 @@ public class TCPClient {
         ```
 
 ### Przykład implementacji serwera
-```Java
+```java
 import java.io.*;
 import java.net.*;
 
