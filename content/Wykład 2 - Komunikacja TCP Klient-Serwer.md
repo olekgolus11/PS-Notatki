@@ -7,11 +7,14 @@
 - [[#Serwer TCP (Java)|Serwer TCP (Java)]]
 	- [[#Przykład implementacji serwera]]
 - [[#Klient TCP (Python)|Klient TCP (Python)]]
+	- [[#Przykład implementacji klienta (Python)]]
 - [[#Serwer TCP (Python)|Serwer TCP (Python)]]
+	- [[#Przykład implementacji serwera (Python)]]
 
 ## Krótki opis komunikacji
 
 Abstrakcyjne kroki tworzenia klienta i serwera TCP:
+
 **Klient:**
 
 1. **Utworzenie gniazda:** Klient tworzy gniazdo, które będzie punktem końcowym komunikacji.
@@ -71,13 +74,13 @@ Abstrakcyjne kroki tworzenia klienta i serwera TCP:
     - Użyj klas takich jak `PrintWriter` (do wysyłania tekstu) lub `DataOutputStream` (do wysyłania danych binarnych) do opakowania strumienia wyjściowego.
     - Użyj klas takich jak `BufferedReader` (do odczytu tekstu) lub `DataInputStream` (do odczytu danych binarnych) do opakowania strumienia wejściowego.
     - Przykład (wysyłanie tekstu):
-        ```java
+        ```Java
         PrintWriter out = new PrintWriter(outputStream, true);
         out.println("Hello, server!"); 
         ```
         
     - Przykład (odbieranie tekstu):
-        ```java
+        ```Java
         BufferedReader in = new BufferedReader(new InputStreamReader(inputStream));
         String serverResponse = in.readLine();
         ```
@@ -188,6 +191,25 @@ public class TCPServer {
     ```py
     client_socket.close()
     ```
+
+### Przykład implementacji klienta (Python)
+
+```py
+import socket  
+  
+client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)  
+client_socket.connect(('localhost', 12345))  
+  
+while True:  
+    message = input("Enter message to send: ")  
+    client_socket.sendall(message.encode())  
+    data = client_socket.recv(1024)  
+    print(f"Received data: {data.decode()}")  
+    if message == "exit":  
+        break  
+client_socket.close()
+```
+
 ## Serwer TCP (Python)
 
 1. **Import biblioteki:** (Tak samo jak w przypadku klienta)
@@ -223,5 +245,26 @@ public class TCPServer {
     connection.close()
     server_socket.close()
     ```
+
+### Przykład implementacji serwera (Python)
+```py
+import socket  
+  
+server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)  
+server_socket.bind(('localhost', 12345))  
+server_socket.listen(5)  
+  
+connection, client_address = server_socket.accept()  
+print(f"Connection from {client_address}")  
+  
+while True:  
+    data = connection.recv(1024)  
+    if not data:  
+        break    print(f"Received data: {data.decode()}")  
+    connection.sendall(data)  
+  
+connection.close()  
+server_socket.close()
+```
 
 #ps #it
