@@ -1,16 +1,16 @@
 # Komunikacja UDP Klient-Serwer
 - [[#Wykład 6: Komunikacja z użyciem protokołu UDP (Java)|Wykład 6: Komunikacja z użyciem protokołu UDP (Java)]]
-	- [[#Wykład 6: Komunikacja z użyciem protokołu UDP (Java)#Klient UDP (Java)|Klient UDP (Java)]]
-	- [[#Wykład 6: Komunikacja z użyciem protokołu UDP (Java)#Serwer UDP (Java)|Serwer UDP (Java)]]
+	- [[#Klient UDP (Java)]]
+	- [[#Serwer UDP (Java)]]
 - [[#Przykład implementacji klienta i serwera UDP w Javie|Przykład implementacji klienta i serwera UDP w Javie]]
-	- [[#Przykład implementacji klienta i serwera UDP w Javie#Klient UDP (Java)|Klient UDP (Java)]]
-	- [[#Przykład implementacji klienta i serwera UDP w Javie#Serwer UDP (Java)|Serwer UDP (Java)]]
+	- [[#Klient UDP (Java)]]
+	- [[#Serwer UDP (Java)]]
 - [[#Wykład 6: Komunikacja z użyciem protokołu UDP (Python)|Wykład 6: Komunikacja z użyciem protokołu UDP (Python)]]
-	- [[#Wykład 6: Komunikacja z użyciem protokołu UDP (Python)#Klient UDP (Python)|Klient UDP (Python)]]
-	- [[#Wykład 6: Komunikacja z użyciem protokołu UDP (Python)#Serwer UDP (Python)|Serwer UDP (Python)]]
+	- [[#Klient UDP (Python)]]
+	- [[#Serwer UDP (Python)]]
 - [[#Implementacja klienta i serwera UDP w Pythonie|Implementacja klienta i serwera UDP w Pythonie]]
-	- [[#Implementacja klienta i serwera UDP w Pythonie#Klient UDP|Klient UDP]]
-	- [[#Implementacja klienta i serwera UDP w Pythonie#Serwer UDP|Serwer UDP]]
+	- [[#Klient UDP]]
+	- [[#Serwer UDP]]
 
 
 ## Wykład 6: Komunikacja z użyciem protokołu UDP (Java)

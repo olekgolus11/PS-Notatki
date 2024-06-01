@@ -1,7 +1,7 @@
 # Zastosowanie wielowątkowości
 - [[#Implementacja wielowątkowego serwera TCP|Implementacja wielowątkowego serwera TCP]]
-	- [[#Implementacja wielowątkowego serwera TCP#Python|Python]]
-	- [[#Implementacja wielowątkowego serwera TCP#Java|Java]]
+	- [[#Python]]
+	- [[#Java]]
 
 
 ## Implementacja wielowątkowego serwera TCP

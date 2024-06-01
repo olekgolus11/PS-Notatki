@@ -1,8 +1,8 @@
 # Techniki asynchroniczne
 - [[#Programowanie wywołań asynchronicznych w kontekście programowania sieciowego|Programowanie wywołań asynchronicznych w kontekście programowania sieciowego]]
-	- [[#Programowanie wywołań asynchronicznych w kontekście programowania sieciowego#Asynchroniczność w programowaniu sieciowym|Asynchroniczność w programowaniu sieciowym]]
-	- [[#Programowanie wywołań asynchronicznych w kontekście programowania sieciowego#Implementacja asynchroniczności|Implementacja asynchroniczności]]
-	- [[#Programowanie wywołań asynchronicznych w kontekście programowania sieciowego#Implementacja serwera TCP (C#)|Implementacja serwera TCP (C#)]]
+	- [[#Asynchroniczność w programowaniu sieciowym]]
+	- [[#Implementacja asynchroniczności]]
+	- [[#Implementacja serwera TCP (C )]]
 
 
 ## Programowanie wywołań asynchronicznych w kontekście programowania sieciowego

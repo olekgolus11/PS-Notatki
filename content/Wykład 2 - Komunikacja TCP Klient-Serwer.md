@@ -3,9 +3,9 @@
 - [[#Krótki opis komunikacji]]
 	- [[#Pytanie odnośnie socketów]]
 - [[#Klient TCP (Java)|Klient TCP (Java)]]
-	- [[#Klient TCP (Java)#Przykład implementacji klienta|Przykład implementacji klienta]]
+	- [[#Przykład implementacji klienta]]
 - [[#Serwer TCP (Java)|Serwer TCP (Java)]]
-	- [[#Serwer TCP (Java)#Przykład implementacji serwera|Przykład implementacji serwera]]
+	- [[#Przykład implementacji serwera]]
 - [[#Klient TCP (Python)|Klient TCP (Python)]]
 - [[#Serwer TCP (Python)|Serwer TCP (Python)]]
 

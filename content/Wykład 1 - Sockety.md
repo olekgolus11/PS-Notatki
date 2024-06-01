@@ -4,12 +4,12 @@
 - [[#Model TCP/IP|Model TCP/IP]]
 - [[#Protokoły TCP i UDP|Protokoły TCP i UDP]]
 - [[#Gniazda (Sockets)|Gniazda (Sockets)]]
-	- [[#Gniazda (Sockets)#Elementy definiujące gniazda:|Elementy definiujące gniazda:]]
-	- [[#Gniazda (Sockets)#Tryby transmisji|Tryby transmisji]]
-	- [[#Gniazda (Sockets)#Relacje między komputerami|Relacje między komputerami]]
-	- [[#Gniazda (Sockets)#Uchwyty (Handles)|Uchwyty (Handles)]]
-	- [[#Gniazda (Sockets)#Bufory gniazd|Bufory gniazd]]
-	- [[#Gniazda (Sockets)#Funkcje gniazd|Funkcje gniazd]]
+	- [[#Elementy definiujące gniazda:]]
+	- [[#Tryby transmisji]]
+	- [[#Relacje między komputerami]]
+	- [[#Uchwyty (Handles)]]
+	- [[#Bufory gniazd]]
+	- [[#Funkcje gniazd]]
 - [[#DNS (Domain Name System)|DNS (Domain Name System)]]
 
 
