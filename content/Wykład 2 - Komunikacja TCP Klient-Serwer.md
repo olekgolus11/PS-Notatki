@@ -12,7 +12,6 @@
 ## Krótki opis komunikacji
 
 Abstrakcyjne kroki tworzenia klienta i serwera TCP:
-
 **Klient:**
 
 1. **Utworzenie gniazda:** Klient tworzy gniazdo, które będzie punktem końcowym komunikacji.
